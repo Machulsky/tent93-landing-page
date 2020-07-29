@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Главная</title>
+	<meta name="author" content="kola2451">
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body class="bg-index font-sans text-white">
+	<!--Панель навигации-->
+	<nav class="flex w-full fixed items-center justify-between flex-wrap bg-black p-6 z-50">
+		<div class="flex items-center flex-shrink-0 text-white mr-12">
+			<span class="font-semibold text-2xl tracking-tight">НАЗВАНИЕ</span>
+		</div>
+
+	    <div class="block lg:hidden">
+            <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+               <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+            </button>
+        </div>
+
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden" id="nav-content">
+            <div class="text-base lg:flex-grow">
+                <a href="index.php" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-500 mr-4">
+                ГЛАВНАЯ
+                </a>
+                <a href="news.php" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-500 mr-4">
+                НОВОСТИ
+                </a>
+                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-500 mr-4">
+                ФОРУМ
+                </a>
+                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-500 mr-4">
+                СЕРВЕРА
+                </a>
+                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-500">
+                ПОМОЩЬ
+                </a>
+            </div>
+            <div>
+                <a href="auth.html" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-500 mr-4">
+                АВТОРИЗОВАТЬСЯ
+                </a>
+                <a href="registers.html" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-500 mr-12">
+                ЗАРЕГИСТРИРОВАТЬСЯ
+                </a>
+            </div>
+        </div>	
+	</nav>
+    <section>
+        <div class="flex flex-wrap flex-col md:flex-row">
+            <div class="flex flex-col w-full md:w-5/5 justify-center items-center text-center md:text-center pt-64 z-10">
+                <h1 class="my-4 text-5xl font-bold leading-tight">Начни игру!</h1>
+                <p class="leading-normal text-2xl mb-4">
+                    Ищешь сервер где можно отлично провести время одному <br>
+                    или в компании друзей?
+                    тогда наш сервер то что тебе нужно!.
+                </p>
+                <div class="m-10 z-10">
+                    <a href="start.php" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-4 m-2 rounded" href="start.php">
+                        НАЧАТЬ ИГРАТЬ
+                    </a>
+                    <a href="https://vk.com/" class="bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-4 px-4 m-2 border border-white hover:border-transparent rounded">
+                        ВКОНТАКТЕ
+                    </a>
+                </div>
+            </div>
+            <video class="absolute max-h-full" autoplay="" loop="" muted="" poster="img/home-bg.jpg">
+                <source src="assets/video/hero-bg-home.mp4" type="video/mp4">
+                <source src="assets/video/hero-bg-home.webm" type="video/mp4">
+            </video>
+        </div>
+    </section>
+	<!--Секция с cards-->
+	<section class="py-48">
+		<div class="container mx-auto flex flex-wrap text-white px-2">
+			<div class="sm:block md:block lg:flex xl:flex">
+                <div class="flex-1 text-center bg-card border-gray-900 shadow-lg px-4 py-8 m-4 z-10">
+                    <img class="object-center w-24 h-24 w-full" src="img/svg/olive-branches-award-symbol-white.svg" alt="Sunset in the mountains">
+                    <div class="px-4 py-4">
+                        <div class="font-bold text-3xl mb-2">Рейтинг</div>
+                        <p class="text-lg">
+                            Хочешь стать лучшим из лучших? Тогда соревнуйся с игроками в разных режимах и покоряй вершины.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-1 text-center bg-card border-gray-900 shadow-lg px-4 py-8 m-4 z-10">
+                	<img class="object-contain w-24 h-24 w-full" src="img/svg/shield-white.svg">
+                	<div class="px-6 py-4">
+                        <div class="font-bold text-3xl mb-2">Гильдии</div>
+                        <p class="text-lg">
+                            Надоело играть одному? Тогда вступи в одну из гильдий или возглавь её сам.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-1 text-center bg-card border-gray-900 shadow-lg px-4 py-8 m-4 z-10">
+                	<img class="object-center w-24 h-24 w-full" src="img/svg/quality-white.svg" alt="Sunset in the mountains">
+                	<div class="px-4 py-4">
+                        <div class="font-bold text-3xl mb-2">Достижения</div>
+                        <p class="text-lg">
+                           Глубоко проработанная система, которой вы можете воспользоваться как играя на сервере, так и за активность на сайте. 
+                        </p>
+                    </div>
+                </div>      
+			</div>
+		</div>
+	</section>
+    <!--Секция с последними новостями-->
+    <section class="py-2">
+        <div class="text-center text-white leading-tight">
+             <p class="my-4 text-5xl font-bold py-2">Последние новости</p>
+        </div>
+
+        <div class="container mx-auto flex flex-wrap text-white px-2">
+            <div class="sm:block md:block lg:flex xl:flex">
+                <div class="max-w-sm bg-card rounded overflow-hidden shadow-lg cursor-pointer m-4 z-10">
+                <img class="w-full" src="https://source.unsplash.com/DEa8_vxKlEo/400x200" alt="Sunset in the mountains">
+                    <div class="px-6 py-4 text-white">
+                        <div class="flex items-center justify-between inset-x-0 bottom-0">
+                            <span class="inline-block rounded-full py-1 text-sm font-semibold text-green-500 mr-2">#НОВОСТИ</span>
+                        </div>
+                        <div class="font-bold text-xl mb-2">Заголовок статьи</div>
+                        <p class="text-white text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between inset-x-0 bottom-0 py-4">
+                        <p class="font-semibold px-6">17.10.2019</p>
+                    </div>
+                </div>
+                <div class="max-w-sm bg-card rounded overflow-hidden shadow-lg cursor-pointer m-4 z-10">
+                <img class="w-full" src="https://source.unsplash.com/DEa8_vxKlEo/400x200" alt="Sunset in the mountains">
+                    <div class="px-6 py-4 text-white">
+                        <div class="flex items-center justify-between inset-x-0 bottom-0">
+                            <span class="inline-block rounded-full py-1 text-sm font-semibold text-yellow-500 mr-2">#ОБНОВЛЕНИЯ</span>
+                        </div>
+                        <div class="font-bold text-xl mb-2">Заголовок статьи</div>
+                        <p class="text-white text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between inset-x-0 bottom-0 py-4 z-10">
+                        <p class="font-semibold px-6">17.10.2019</p>
+                    </div>
+                </div>
+                <div class="max-w-sm bg-card rounded overflow-hidden shadow-lg cursor-pointer m-4">
+                <img class="w-full" src="https://source.unsplash.com/DEa8_vxKlEo/400x200" alt="Sunset in the mountains">
+                    <div class="px-6 py-4 text-white">
+                        <div class="flex items-center justify-between inset-x-0 bottom-0">
+                            <span class="inline-block rounded-full py-1 text-sm font-semibold text-blue-500 mr-2">#АКЦИИ</span>
+                        </div>
+                        <div class="font-bold text-xl mb-2">Заголовок статьи</div>
+                        <p class="text-white text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between inset-x-0 bottom-0 py-4">
+                        <p class="font-semibold px-6">17.10.2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-900">
+        <div class="container mx-auto px-8">
+            <div class="w-full flex flex-col md:flex-row py-12">
+                <div class="flex-1">
+                    <p class="uppercase text-white md:mb-6">Сети</p> 
+                    <ul class="list-reset mb-6">
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline hover:underline text-white hover:text-orange-500">Вконтакте</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline hover:underline text-white hover:text-orange-500">Дискорд</a>
+                        </li>
+                    </ul>    
+                </div>
+                <div class="flex-1">
+                    <p class="uppercase text-white md:mb-6">Ссылки</p> 
+                    <ul class="list-reset mb-6">
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline hover:underline text-white hover:text-orange-500">Правила</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline hover:underline text-white hover:text-orange-500">Поддержка</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline hover:underline text-white hover:text-orange-500">Помощь</a>
+                        </li>
+                    </ul>    
+                </div>
+                <div class="flex-2">
+                    <p class="text-center text-white text-xs pt-32">
+                        &copy;2019 Acme Corp. All rights reserved.
+                    </p> 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+		//скрипт для меню
+		document.getElementById('nav-toggle').onclick = function(){
+			document.getElementById("nav-content").classList.toggle("hidden");
+		}
+	</script>
+</body>
+</html>

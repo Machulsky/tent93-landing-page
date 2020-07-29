@@ -1,0 +1,497 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+
+  
+}
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+   #why-us ul{
+  max-width: 675px !important;
+ }
+}
+
+@media (min-width: 1281px) {
+	
+ }
+
+
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+ #why-us ul{
+  max-width: 675px !important;
+ }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+
+   .navbar .container{
+ 	max-width: 100%;
+ }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	.navbar .navbar-brand{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+
+}
+
+
+.navbar .navbar-brand span{
+  font-size: 11px;
+  text-transform: none;
+  display: block;
+  font-weight: 300;
+  margin-top: -6px;
+}
+
+#cert h1{
+  font-size: 36px;
+}
+  #features h1{
+    font-size: 40px !important;
+  }
+   #furniture h1{
+    font-size: 35px !important;
+  }
+  #features .card h1{
+  font-size: 16px !important;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+#features .first .card{
+  width: 100%;
+}
+
+#features .second .image img{
+  width: 100% !important;
+}
+    .quiz-trigger h5{
+    font-size: 18px !important;
+  }
+
+#welcome  .circles{
+  display: none !important;
+}
+#welcome  .articles{
+  display: none !important;
+}
+#welcome .main h1{
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+ 
+}
+
+#how-it-works img{
+  display: none;
+
+}
+#how-it-works .w-arts div{
+  margin-left: 40px !important;
+
+}
+
+#how-it-works .btn-get-price{
+  width: 100% !important;
+  display: block;
+  height: 100% !important;
+
+
+  white-space: normal !important;
+ 
+}
+
+
+.gallery-item img{
+     
+  width: 280px;
+  height: 280px;
+}
+
+#excursion h1{
+  font-size: 40px !important;
+}
+
+#excursion .go-form .card h1{
+  font-size: 27px !important;
+  
+}
+
+#question  .card button{
+   font-size: 20px !important;
+}
+
+#contact h1{
+  font-size: 40px !important;
+}
+
+#contact .card{
+  padding: 5px;
+}
+#contact .card h1{
+  font-size: 20px !important;
+  }
+#contact .contacts li i{
+  font-size: 20px;
+  float: left;
+  display: block;
+  width: 30px;
+  height: 40px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+#contact .contacts li a{
+  color: var(--text);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+
+}
+
+
+
+@media (min-width: 375px) and (max-width: 375px) and (orientation: landscape) {
+.navbar .navbar-brand{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+
+}
+
+
+.navbar .navbar-brand span{
+  font-size: 11px;
+  text-transform: none;
+  display: block;
+  font-weight: 300;
+  margin-top: -6px;
+}
+
+#cert h1{
+  font-size: 36px;
+}
+  #features h1{
+    font-size: 40px !important;
+  }
+   #furniture h1{
+    font-size: 35px !important;
+  }
+  #features .card h1{
+  font-size: 16px !important;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+#features .first .card{
+  width: 100%;
+}
+
+#features .second .image img{
+  width: 100% !important;
+}
+    .quiz-trigger h5{
+    font-size: 18px !important;
+  }
+
+#welcome  .circles{
+  display: none !important;
+}
+#welcome  .articles{
+  display: none !important;
+}
+#welcome .main h1{
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+ 
+}
+
+#how-it-works img{
+  display: none;
+
+}
+#how-it-works .w-arts div{
+  margin-left: 40px !important;
+
+}
+
+#how-it-works .btn-get-price{
+  width: 100% !important;
+  display: block;
+  height: 100% !important;
+
+
+  white-space: normal !important;
+ 
+}
+
+
+.gallery-item img{
+     
+  width: 280px;
+  height: 280px;
+}
+
+#excursion h1{
+  font-size: 40px !important;
+}
+
+#excursion .go-form .card h1{
+  font-size: 27px !important;
+  
+}
+
+#question  .card button{
+   font-size: 20px !important;
+}
+
+#contact h1{
+  font-size: 40px !important;
+}
+
+#contact .card{
+  padding: 5px;
+}
+#contact .card h1{
+  font-size: 20px !important;
+  }
+#contact .contacts li i{
+  font-size: 20px;
+  float: left;
+  display: block;
+  width: 30px;
+  height: 40px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+#contact .contacts li a{
+  color: var(--text);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .navbar {
+  background: white !important;
+}
+.navbar .navbar-toggler-icon{
+  filter: none !important;
+}
+.navbar .navbar-brand{
+  color: var(--text) !important;
+}
+.navbar .nav-item .nav-link{
+  color: var(--text) !important;
+}
+.navbar .contact-header{
+  color: var(--text) !important;
+}
+  .navbar .navbar-brand{
+  font-size: 14px !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+
+}
+
+
+.navbar .navbar-brand span{
+  font-size: 11px !important;
+  text-transform: none;
+  display: block;
+  font-weight: 300;
+  margin-top: -6px;
+}
+
+#cert h1{
+  font-size: 36px !important;
+}
+  #features h1{
+    font-size: 40px !important;
+  }
+   #furniture h1{
+    font-size: 35px !important;
+  }
+  #features .card h1{
+  font-size: 16px !important;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+#features .first .card{
+  width: 100%;
+}
+
+#features .second .image img{
+  width: 100% !important;
+}
+    .quiz-trigger h5{
+    font-size: 18px !important;
+  }
+#welcome{
+  padding-top: 120px;
+  padding-bottom: 0px !important;
+}
+#welcome .services {
+  top: 50px;
+}
+#welcome  .circles{
+  display: none !important;
+}
+#welcome  .articles{
+  display: none !important;
+}
+#why-us{
+  padding-top: 0px;
+}
+#why-us ul{
+  margin: 0 auto;
+   max-width: 60%;
+}
+#why-us img{
+  top: 0px;
+}
+#why-us{
+  text-align: center;
+
+}
+#welcome .main h1{
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+ 
+}
+
+#how-it-works img{
+  display: none;
+
+}
+#how-it-works .w-arts div{
+  margin-left: 40px !important;
+
+}
+
+#how-it-works .btn-get-price{
+  width: 100% !important;
+  display: block;
+  height: 100% !important;
+
+
+  white-space: normal !important;
+ 
+}
+
+
+.gallery-item img{
+     
+  width: 280px;
+  height: 280px;
+}
+
+#excursion h1{
+  font-size: 40px !important;
+}
+
+#excursion .go-form .card h1{
+  font-size: 27px !important;
+  
+}
+
+#question  .card button{
+   font-size: 20px !important;
+}
+
+#contact h1{
+  font-size: 40px !important;
+}
+
+#contact .card{
+  padding: 5px;
+}
+#contact .card h1{
+  font-size: 20px !important;
+  }
+#contact .contacts li i{
+  font-size: 20px;
+  float: left;
+  display: block;
+  width: 30px;
+  height: 40px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+#contact .contacts li a{
+  color: var(--text);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

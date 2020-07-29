@@ -1,0 +1,818 @@
+*{
+	font-family: 'Source Sans Pro';
+}
+:root{
+	/*Colors*/
+	--primary: #ffdd2a;
+	--warrancy:#4d7183;
+	--text:#6a6a6a;
+	--secondary:#f3f0f0;
+	--blue:#3eb5f1;
+
+	/*Fonts*/
+
+}
+body{
+	overflow-x: hidden !important;
+}
+
+mark{
+	color: var(--yellow);
+	background-color: transparent;
+}
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    outline: 0;
+    outline-color: transparent;
+    outline-width: 0;
+    outline-style: none;
+    box-shadow: 0 0 0 0 rgba(0,123,255,0);
+}
+.modal-backdrop {
+   background-color: var(--text);
+   opacity: .9 !important;
+}
+
+.navbar{
+	background: transparent !important;
+}
+.white-navbar {
+	background: white !important;
+}
+.white-navbar .navbar-toggler-icon{
+	filter: none !important;
+}
+.white-navbar .navbar-brand{
+	color: var(--text) !important;
+}
+.white-navbar .nav-item .nav-link{
+	color: var(--text) !important;
+}
+.white-navbar .contact-header{
+	color: var(--text) !important;
+}
+.navbar .navbar-brand{
+	font-size: 19px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+
+}
+
+
+.navbar .navbar-brand span{
+	font-size: 14px;
+	text-transform: none;
+	display: block;
+	font-weight: 300;
+	margin-top: -6px;
+}
+
+.navbar .navbar-brand:hover{ color: white; }
+
+.navbar .nav-link{
+	font-weight: 650;
+	font-size: 15.66px;
+	padding-bottom: 5px;
+	color: white !important;
+	margin-left: 15px;
+}
+
+.navbar .nav-link:hover{
+	padding-bottom: 2px;
+	border-bottom: 3px solid var(--primary);
+}
+
+.contact-header{
+	display: flex;
+	justify-content: center;
+	text-align: right;
+	color: white;
+	height: 62px;
+
+	
+}
+.contact-header p{
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.contact-header adress{
+	display: block;
+	font-size: 12px;
+}
+.contact-header phone{
+	font-weight: 700;
+	font-size: 14.6px;
+}
+.contact-header .btn{
+	margin-top: 5px;
+	background: var(--primary);
+	border: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	padding-top: 18px;
+	border-radius: 0px;
+
+}
+
+#welcome{
+	margin-top: -100px;
+	padding-top: 200px;
+	background: url("../img/bg.jpg") no-repeat;
+	padding-bottom: 150px;
+
+
+}
+
+#welcome .main h1{
+	color: white;
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 56px;
+	border-left: 12px solid var(--primary);
+	padding-left: 20px;
+}
+
+#welcome .warrancy h1{
+	font-size: 18px;
+	color: white;
+	background: var(--warrancy);
+	padding: 15px 15px 15px 15px;
+	margin-bottom: 30px;
+	border-right: 5px solid white;
+}
+#welcome .quiz-trigger{
+	margin-top: 40px;
+}
+
+#welcome .quiz-trigger i{
+	font-size: 56px;
+	color: white;
+	display: inline-block;
+}
+#welcome .quiz-trigger h5{
+	color: white;
+	margin-left: 15px;
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 400;
+}
+.btn-get-price{
+	
+	margin-top: 40px;
+	
+	text-transform: uppercase;
+	padding: 25px 25px 25px 25px;
+	border-radius: 0px;
+	background: var(--primary);
+	border: none;
+	color: black;
+	font-weight: 800;
+	font-size: 28px;
+}
+#welcome .quiz-trigger .btn{
+	display: block;
+	margin-top: 40px;
+	width: 250px;
+	text-transform: uppercase;
+	padding: 25px 25px 25px 25px;
+	border-radius: 0px;
+	background: var(--primary);
+	border: none;
+	color: black;
+	font-weight: 800;
+	font-size: 28px;
+}
+#welcome .circles img{
+	position: absolute;
+	right: -25px;
+	margin-top: -40px;
+}
+#welcome .articles{
+	color: white;
+}
+#welcome .articles h1{
+	font-size: 30px;
+	text-transform: uppercase;
+	border-bottom: 4px solid rgba(255,255,255, .9);
+	padding-bottom: 5px;
+}
+#welcome .articles p{
+	font-size: 14px;
+}
+#welcome .articles .a-1{
+	position: absolute;
+	width: 240px;
+	margin-left: 10px;
+	
+}
+#welcome .articles .a-2{
+	margin-top: 170px;
+	position: absolute;
+	width: 240px;
+	margin-left: 40px;
+}
+#welcome .articles .a-3{
+	margin-top: 320px;
+	position: absolute;
+	width: 240px;
+	margin-left: -20px;
+}
+
+#welcome .articles .a-4{
+	margin-top: 430px;
+	position: absolute;
+	width: 240px;
+	margin-left: -250px;
+}
+
+.navbar-toggler-icon{
+	filter: invert(100%);
+
+}
+#welcome .services{
+	position: relative;
+	top: 220px;
+}
+
+#tents .card{
+	border-radius: 30px;
+	box-shadow: 5px 5px 50px 5px var(--secondary);
+	height: 158px;
+	padding:0px;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	border: none;
+	margin-bottom: 10px;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+#pologa .card{
+	border-radius: 30px;
+	box-shadow: 5px 5px 50px 5px var(--secondary);
+	height: 158px;
+	padding:0px;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	border: none;
+	margin-bottom: 10px;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+#vorota .card{
+	border-radius: 30px;
+	box-shadow: 5px 5px 50px 5px var(--secondary);
+	height: 158px;
+	padding:0px;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	border: none;
+	margin-bottom: 10px;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+#cafes .card{
+	border-radius: 30px;
+	box-shadow: 5px 5px 50px 5px var(--secondary);
+	height: 158px;
+	padding:0px;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	border: none;
+	margin-bottom: 10px;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+#chehli .card{
+	border-radius: 30px;
+	box-shadow: 5px 5px 50px 5px var(--secondary);
+	height: 158px;
+	padding:0px;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	border: none;
+	margin-bottom: 10px;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+#welcome .services .card{
+	border-radius: 30px;
+	box-shadow: 5px 5px 50px 5px black;
+	height: 158px;
+	padding:0px;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+#welcome .services .card:hover{
+	box-shadow: 5px 5px 50px 5px var(--primary);
+	cursor: pointer;
+}
+
+#welcome .services .card-body{
+	height: 55px;
+}
+#welcome .services .card-footer{
+	border: none;
+	background: transparent;
+	padding: 0px;
+}
+
+#features{
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+#features h1{
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: var(--text);
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#features .first .card{
+	width: 475px;
+	border-radius: 30px;
+	border: none;
+	box-shadow: 5px 5px 50px 5px var(--secondary);
+	padding-bottom: 0px;
+}
+#features .card h1{
+	font-size: 16px;
+	font-weight: 800;
+	text-align: left;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+#features .card p{
+	font-size: 14px;
+}
+
+#features .first .card img{
+	float: left;
+	margin-right: 5px;
+}
+
+#features .second .image{
+	margin-right: 50px;
+}
+
+#features .row .card{
+	border-radius: 30px;
+	border: none;
+	box-shadow: 5px 5px 50px 5px var(--secondary);
+	padding-bottom: 0px;
+
+}
+
+#features .second .card{
+	text-align: center;
+}
+#features .second .card h1{
+	text-align: center;
+}
+
+#furniture{
+	padding-top: 100px;
+	background: #f3f0f0;
+	padding-bottom: 100px;
+}
+
+#furniture h1{
+	color: var(--text);
+	font-weight: 800;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#furniture h5{
+	color: var(--text);
+	font-size: 24px;
+	text-align: center;
+}
+
+#furniture .zamki p{
+	color: var(--text);
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+#furniture .zamki{
+	margin-bottom: 100px;
+}
+
+#furniture .okantovka p{
+	color: var(--text);
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+#how-it-works{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#how-it-works h1{
+	color: var(--text);
+	font-weight: 800;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#how-it-works h5{
+	color: var(--text);
+	font-size: 24px;
+	text-align: center;
+}
+#how-it-works .row h5{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 18px;
+	text-align: left;
+}
+#how-it-works p{
+	padding: 0px;
+	font-size: 14px;
+}
+.btn{
+	border: none;
+	border-radius: 0px; 
+}
+.btn-primary{
+	background: var(--primary);
+	color: black;
+	border: none;
+	border-radius: 0px; 
+}
+.btn-primary:hover{
+	background: var(--primary);
+	color: black;
+	box-shadow: 5px 5px 50px 5px var(--primary);
+}
+
+#cert{
+	padding-top: 100px;
+	padding-bottom: 150px;
+	background: #f3f0f0;
+}
+
+#cert h1{
+	color: var(--text);
+	font-weight: 800;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#cert h5{
+	color: var(--text);
+	font-size: 24px;
+	text-align: center;
+}
+
+#cert .card{
+	border-radius: 30px;
+	border: none;
+	box-shadow: 5px 5px 50px 5px var(--secondary);
+	height: 350px;
+}
+#gallery{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#gallery h1{
+	color: var(--text);
+	font-weight: 800;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#gallery h5{
+	color: var(--text);
+	font-size: 24px;
+	text-align: center;
+}
+#gallery .col-lg-4{
+	overflow: hidden;
+	margin-top: 15px;
+	
+}
+.gallery-item img{
+	   
+	width: 380px;
+	height: 380px;
+}
+
+#why-us{
+	background: var(--primary);
+	color: black;
+	padding-top: 30px;
+	padding-bottom: 45px;
+}
+#why-us h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 48px;
+
+}
+#why-us img{
+	position: relative;
+	top: -75px;
+	float: left;
+}
+
+#why-us ul{
+	margin-top: 20px;
+	list-style: none;
+	padding-left: 0px;
+	
+}
+#why-us ul li{
+	margin-top: 10px;
+}
+#why-us ul li a{
+	color: black;
+	font-size: 24px;
+	text-decoration: none;
+
+
+}
+#why-us ul li a i{
+
+	font-size: 60px;
+	
+	margin-right: 10px;
+}
+#why-us ul li a text{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+#excursion{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#excursion h1{
+	color: var(--text);
+	font-weight: 800;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#excursion h5{
+	color: var(--text);
+	font-size: 24px;
+	text-align: center;
+}
+#excursion .col-lg-4{
+	overflow: hidden;
+	margin-top: 15px;
+}
+#excursion .go-form{
+	margin-top: 100px;
+}
+#excursion .go-form .card{
+	box-shadow: 5px 5px 50px 5px var(--secondary);
+	border: 0px;
+	border-radius: 0px;
+	padding-left: 20px;
+	
+}
+.modal-header h1{
+	font-size: 27px;
+	font-weight: 800;
+	text-transform: none;
+	text-align: left;
+	border-left: 8px solid var(--primary);
+	padding-left: 10px;
+	padding-bottom: 0px;
+	color: var(--text);
+}
+
+.modal-header h1 span{
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: none;
+}
+
+#excursion .go-form .card h1{
+	font-size: 27px;
+	font-weight: 800;
+	text-transform: none;
+	text-align: left;
+	border-left: 8px solid var(--primary);
+	padding-left: 10px;
+	padding-bottom: 0px;
+}
+
+#excursion .go-form .card h1 span{
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: none;
+}
+
+#excursion .go-form .card form{
+	margin-top: -20px;
+}
+
+#excursion .go-form .card form button{
+	background: var(--primary);
+	color: black;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 19px;
+	border: none;
+	border-radius: 0;
+}
+
+#question{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: var(--secondary);
+}
+
+#question h1{
+	color: var(--text);
+	font-weight: 800;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+#question h5{
+	color: var(--text);
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+#question .card{
+	margin-top: 40px;
+	border-radius: 30px;
+	border: none;
+	box-shadow: 5px 5px 50px 5px rgba(0,0,0, .3);
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+
+#question .card h1{
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: none;
+	margin-bottom: 40px;
+}
+
+#question form button{
+	background: var(--primary);
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	border: none;
+	border-radius: 0px;
+}
+
+#contact{
+	padding-top: 100px;
+	padding-bottom: 100px;	
+}
+
+#contact h1{
+	color: var(--text);
+	font-weight: 800;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+#contact h5{
+	color: var(--text);
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+#contact .card{
+	border-radius: 30px;
+	border: none;
+	box-shadow: 5px 5px 50px 5px var(--secondary);
+	padding-left: 40px;
+	padding-right: 40px;
+
+}
+
+#contact .card h1{
+	font-size: 30px;
+	text-align: left;
+	max-height: 530px;
+}
+
+#contact .contacts{
+	list-style: none;
+	padding-left: 0;
+}
+
+#contact .contacts li{
+	margin-top: 10px;
+}
+#contact .contacts li i{
+	font-size: 30px;
+	float: left;
+	display: block;
+	width: 30px;
+	height: 40px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+#contact .contacts li a{
+	color: var(--text);
+	font-size: 25px;
+	font-weight: 300;
+}
+
+#contact form button{
+	background: var(--primary);
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	border: none;
+	border-radius: 0px;
+}
+
+footer{
+	padding-top: 50px;
+	background: #474747;
+	padding-bottom: 50px;
+}
+
+footer h1{
+	font-size: 24px;
+	text-transform: uppercase;
+	color: white;
+}
+.modal-content{
+	border: none;
+	border-radius: 30px;
+	box-shadow: 5px 5px 50px 5px var(--secondary);
+	padding: 20px;
+
+}
+.modal .btn{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+
+}
